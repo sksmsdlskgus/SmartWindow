@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Christmas Wallpaper .png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 40px; /* Adjusted font size */
+    margin: 0; /* Removed margin */
+}
+
+
+.listBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.subListBox {
+    margin: 0 20px; /* Adjusted margin */
+}
+
+.weatherBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px; /* Increased padding */
+    margin-bottom: 20px; /* Added margin-bottom */
+}
+
+
+.listHeader {
+    color: #fff;
+    text-align: center;
+    font-size: 24px; /* Increased font size */
+    margin-bottom: 10px;
+}
+
+.horizon {
+    width: 60px; /* Increased width */
+    height: 3px; /* Increased height */
+    background-color: #fff;
+    margin: 8px auto; /* Adjusted margin */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.division {
+    height: 180px; /* Increased height */
+    width: 3px; /* Increased width */
+    background-color: #fff;
+    margin: 0 30px; /* Adjusted margin */
+}
+.welcome{
+    font-size: 26px;
+}
+
+.welcomeBox {
+    color: #fff;
+    text-align: center;
+}
+
+.removeBtn {
+    background-color: rgba(92, 102, 255, 0.4);
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Adjusted padding */
+    border-radius: 8px; /* Increased border radius */
+    cursor: pointer;
+    font-size: 20px; /* Increased font size */
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Adjusted margin */
+}
+
+.removeBtn:hover {
+    background-color: #2980b9;
+}
+
+#ww_0fd1a94b7bc98 {
+    font-size: 24px; /* Adjusted font size */
+    padding: 100px; /* Adjusted padding */
+}
+
